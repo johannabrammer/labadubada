@@ -1,4 +1,4 @@
- h1
+ #name-tag
       { font-family: Sofia;
        font-weight:700;
        color:#8b0000;}
@@ -47,6 +47,4 @@
                 padding: 40px;
                 max-width: 900px;}
           
- #name-tag {
-            	float: left;
-            }
+ 
