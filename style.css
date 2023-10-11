@@ -4,7 +4,7 @@
        color:#8b0000;}
        hr
       {color:#c53500;}       
-      .link-life{
+.link-life{
         color:#c53500;
         font-size:30px;
       }
@@ -47,3 +47,6 @@
                 padding: 40px;
                 max-width: 900px;}
           
+ #mane-tag {
+            	float: left;
+            }
