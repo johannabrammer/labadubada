@@ -1,51 +1,59 @@
-h1
-      { font-family: Sofia;
-       font-weight:700;
-       color:#8b0000;}
-       hr
-      {color:#c53500;}       
-.link-life{
-        color:#c53500;
-        font-size:30px;
-      }
-
-            body {
-                background-color: #fff6cc;
-            }
-
-
-            .container {
+    .box {
             	background-color: #ffffff;
-                padding: 24px;
+                padding: 16px;
                 border-style: solid;
-                border-color: red;
+                border-color: Salmon ;
                 border-width: 4px;
-                max-width: 350px;
-                display: inline-block;
+                max-width: 800px;
+                display: block;
                 margin: 16px;
 
             }
             
-            .row {
-            	display: inline-block;
+            .row-display {
+            	display: block;
+            	float: center;
             }
 
             h2 {
-            	float: left;
+            	float: center;
             }
 
-			.profile {
-            	width: 50px;
-                height: 50px;
-                float: left;
-                margin-right: 16px;
-            }
+			
             
-            .post-grid {
+            .grid-post{
             	margin-left: auto;
                 margin-right: auto;
                 padding: 40px;
                 max-width: 900px;}
-          
 
+	  .margin{
+            	margin-left: -500px;
+                margin-right: auto;
+                margin-top: -225px;
+                }
 
+.bx {
+            	background-color: #ffffff;
+                padding: 16px;
+                border-style: solid;
+                border-color: Salmon ;
+                border-width: 4px;
+                max-width: 140px;
+                margin: 16px;
+                 display: block;
+
+            }
+            
+            #left-float{
+            float: left;
+            
+                }
+                .mar-gin{
+            	margin-left: auto;
+                margin-right: -1690px;
+                margin-top: -570px;
+                }
+                #float-right{
+            float: right;
+            display: inline;
