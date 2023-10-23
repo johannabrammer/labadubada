@@ -1,59 +1,106 @@
-    .box {
-            	background-color: #ffffff;
-                padding: 16px;
-                border-style: solid;
-                border-color: Salmon ;
-                border-width: 4px;
-                max-width: 800px;
-                display: block;
-                margin: 16px;
+nav {
+    text-align: center;
+}
 
-            }
-            
-            .row-display {
-            	display: block;
-            	float: center;
-            }
+#logo {
+    float: left;
+}
 
-            h2 {
-            	float: center;
-            }
+#header-top {
+    margin-top: 40px;
+    font-size: 30px;
+    margin: 0;
+}
 
-			
-            
-            .grid-post{
-            	margin-left: auto;
-                margin-right: auto;
-                padding: 40px;
-                max-width: 900px;}
+.top-lk {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: serif;
+}
 
-	  .margin{
-            	margin-left: -500px;
-                margin-right: auto;
-                margin-top: -225px;
-                }
+article {
+    border-color: Salmon;
+    border-width: 4px;
+    border-style: solid;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 12%;
+}
 
-.bx {
-            	background-color: #ffffff;
-                padding: 16px;
-                border-style: solid;
-                border-color: Salmon ;
-                border-width: 4px;
-                max-width: 140px;
-                margin: 16px;
-                 display: block;
+#bus{
+  float: right
+ 
+}
 
-            }
-            
-            #left-float{
-            float: left;
-            
-                }
-                .mar-gin{
-            	margin-left: auto;
-                margin-right: -1690px;
-                margin-top: -570px;
-                }
-                #float-right{
-            float: right;
-            display: inline;
+body {
+    background-color: #fff6cc;
+}
+
+#aside-left {
+    border-color: Salmon;
+    border-width: 4px;
+    border-style: solid;
+    background-color: white;
+    height: 700px;
+    width: 150px;
+    position: absolute;
+    left: 18px;
+    top: 12%;
+    padding: 12px;
+}
+
+#aside-right {
+    border-color: Salmon;
+    border-width: 4px;
+    border-style: solid;
+    background-color: white;
+    height: 700px;
+    width: 150px;
+    position: absolute;
+    right: 18px;
+    top: 12%;
+    padding: 12px;
+}
+
+
+
+figure {
+    position: absolute;
+    right: 0;
+}
+
+#footer-left {
+  border-color: Salmon;
+    border-width: 4px;
+    border-style: solid;
+    background-color: white;
+    height:320px;
+    width:700px;
+     position: absolute;
+    left: 19%;
+    right: 0;
+    top: 60%;
+    text-align: center;
+}
+
+#footer-right{
+     border-color: Salmon;
+    border-width: 4px;
+    border-style: solid;
+    background-color: white;
+    height:320px;
+    width:220px;
+     position: absolute;
+    left: 64%;
+    right: 0%;
+    top: 60%;
+    text-align: center;
+}
+
