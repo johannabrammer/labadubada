@@ -31,10 +31,10 @@ article {
     position: absolute;
     left: 0;
     right: 0;
-    top: 12%;
+    top: 16%;
 }
 
-#bus{
+#box-img{
   float: right
  
 }
@@ -43,7 +43,7 @@ body {
     background-color: #fff6cc;
 }
 
-#aside-left {
+.aside-left {
     border-color: Salmon;
     border-width: 4px;
     border-style: solid;
@@ -52,11 +52,12 @@ body {
     width: 150px;
     position: absolute;
     left: 18px;
-    top: 12%;
+    top: 16%;
     padding: 12px;
+    text-align: center;
 }
 
-#aside-right {
+.aside-right {
     border-color: Salmon;
     border-width: 4px;
     border-style: solid;
@@ -65,8 +66,9 @@ body {
     width: 150px;
     position: absolute;
     right: 18px;
-    top: 12%;
+    top: 16%;
     padding: 12px;
+    text-align: center;
 }
 
 
@@ -104,3 +106,54 @@ figure {
     text-align: center;
 }
 
+#latest-post{
+    
+}
+
+
+a:visited {
+  color: #8b0000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff8c00;
+}
+
+/* selected link */
+a:active {
+  color: salmon;
+}
+
+a:active {
+  color: blue;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+.post{
+    border-color: Salmon;
+    border-width: 4px;
+    border-style: solid;
+    text-align: center;
+    margin: auto;
+    width: 44%;
+    height:60%;
+    padding:20px;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow: auto
+  
+}
