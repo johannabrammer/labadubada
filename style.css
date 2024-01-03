@@ -15,7 +15,7 @@ nav {
 .top-lk {
     display: inline-block;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-family: serif;
 }
 
@@ -34,7 +34,7 @@ article {
     top: 16%;
 }
 
-#box-img{
+.box-img{
   float: right
  
 }
@@ -156,4 +156,30 @@ a:active {
     margin-top: 50px;
     overflow: auto
   
+}
+
+
+.web-pages-info{
+   border-color: Salmon;
+    border-width: 4px;
+    border-style: solid;
+    width: 500px;
+    height:500px;
+    background-color:white;
+    overflow: auto
+    float: left;
+    padding: 50px;
+  margin: 30px;
+  text-align: center;
+}
+
+iframe{
+  width:500px;
+  height:500px;
+}
+
+
+.web-page-link{
+    font-size:20px;
+    
 }
