@@ -89,7 +89,7 @@ figure {
      position: absolute;
     left: 19%;
     right: 0;
-    top: 80%;
+    top: 90%;
     text-align: center;
      overflow: auto
 }
@@ -104,8 +104,9 @@ figure {
      position: absolute;
     left: 64%;
     right: 0%;
-    top: 80%;
+    top: 90%;
     text-align: center;
+    overflow: auto
 }
 
 #latest-post{
