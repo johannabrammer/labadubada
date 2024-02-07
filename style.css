@@ -33,7 +33,7 @@ article {
     right: 0;
     top: 16%;
      overflow: auto;
-     font-size: 20px;
+    
 }
 
 .box-img{
@@ -93,7 +93,7 @@ figure {
     top: 84%;
     text-align: center;
      overflow: auto;
-    font-size: 20px;
+   
 }
 
 #footer-right{
@@ -173,4 +173,11 @@ iframe{
 .web-page-link{
     font-size:20px;
     
+}
+
+
+
+
+p {
+     font-size: 20px;
 }
