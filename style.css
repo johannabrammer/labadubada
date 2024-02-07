@@ -164,20 +164,6 @@ a:active {
 }
 
 
-.web-pages-info{
-   border-color: Salmon;
-    border-width: 4px;
-    border-style: solid;
-    width: 500px;
-    height:500px;
-    background-color:white;
-    overflow: auto
-    float: left;
-    padding: 50px;
-  margin: 30px;
-  text-align: center;
-}
-
 iframe{
   width:500px;
   height:500px;
