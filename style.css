@@ -1,9 +1,23 @@
-nav {
-    text-align: center;
+body {
+    background-color: #fff6cc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: left;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #logo {
-    float: left;
+    margin-right: 20px;
 }
 
 #header-top {
@@ -12,172 +26,102 @@ nav {
     margin: 0;
 }
 
+nav {
+    flex-grow: 1;
+    text-align: center;
+    margin-left: -20px; /* Adjust this value to move the links more to the left */
+}
+
 .top-lk {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px; /* Adjust this value if needed */
     font-size: 24px;
     font-family: serif;
 }
 
-article {
-    border-color: Salmon;
-    border-width: 4px;
-    border-style: solid;
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+article, .post, .web-pages-info {
+    border: 4px solid Salmon;
     text-align: center;
-    margin: 0 auto ;
-    width: 60%;
     padding: 20px;
     background-color: white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 16%;
-     overflow: auto;
-    
 }
 
-.box-img{
-  float: right
- 
+.post {
+    width: 44%;
+    height: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    overflow: auto;
 }
 
-body {
-    background-color: #fff6cc;
-}
-
-.aside-left {
-    border-color: Salmon;
-    border-width: 4px;
-    border-style: solid;
-    background-color: white;
-    height: 700px;
-    width: 150px;
-    position: absolute;
-    left: 18px;
-    top: 16%;
-    padding: 12px;
-    text-align: center;
-}
-
-.aside-right {
-    border-color: Salmon;
-    border-width: 4px;
-    border-style: solid;
-    background-color: white;
-    height: 700px;
-    width: 150px;
-    position: absolute;
-    right: 18px;
-    top: 16%;
-    padding: 12px;
-    text-align: center;
-}
-
-
-
-figure {
-    position: absolute;
-    right: 0;
-}
-
-#footer-left {
-  border-color: Salmon;
-    border-width: 4px;
-    border-style: solid;
-    background-color: white;
-    height:320px;
-    width:700px;
-     position: absolute;
-    left: 19%;
-    right: 0;
-    top: 84%;
-    text-align: center;
-     overflow: auto;
-   
-}
-
-#footer-right{
-     border-color: Salmon;
-    border-width: 4px;
-    border-style: solid;
-    background-color: white;
-    height:320px;
-    width:220px;
-     position: absolute;
-    left: 64%;
-    right: 0%;
-    top: 84%;
+.web-pages-info {
+    width: 500px;
+    height: 500px;
+    float: left;
+    padding: 50px;
+    margin: 30px;
     text-align: center;
     overflow: auto;
 }
 
-#latest-post{
-    
+iframe {
+    width: 500px;
+    height: 500px;
 }
 
-
-a:visited {
-  color: #8b0000;
+.web-page-link {
+    font-size: 20px;
 }
 
-/* mouse over link */
-a:hover {
-  color: #ff8c00;
-}
-
-/* selected link */
-a:active {
-  color: salmon;
-}
-
-a:active {
-  color: blue;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
-
-
-.post{
-    border-color: Salmon;
-    border-width: 4px;
-    border-style: solid;
-    text-align: center;
-    margin: auto;
-    width: 44%;
-    height:60%;
-    padding:20px;
+.aside-left, .aside-right {
+    border: 4px solid Salmon;
     background-color: white;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    overflow: auto
-  
+    width: 150px;
+    padding: 12px;
+    text-align: center;
+    height: fit-content;
 }
 
-
-iframe{
-  width:500px;
-  height:500px;
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-
-.web-page-link{
-    font-size:20px;
-    
+#footer-left, #footer-right {
+    border: 4px solid Salmon;
+    background-color: white;
+    padding: 20px;
+    overflow: auto ;
 }
 
+#footer-left {
+    width: 60%;
+}
 
+#footer-right {
+    width: 30%;
+}
 
+a:link, a:visited {
+    color: #8b0000;
+    text-decoration: none;
+}
 
-p {
-     font-size: 20px;
+a:hover, a:active {
+    color: #ff8c00;
+    text-decoration: underline;
+}
+
+#life-bus {
+    height: fit-content;
+
 }
